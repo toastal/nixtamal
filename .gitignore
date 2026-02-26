@@ -1,0 +1,13 @@
+# KEEP personal files personal
+.envrc
+
+# NO to Microsoft
+devcontainer.json
+*.code-workspace
+.devcontainer
+.github/
+.vscode/
+
+# NO to invasive configs
+.husky/
+.pre-commit-config.{yaml,yml}
